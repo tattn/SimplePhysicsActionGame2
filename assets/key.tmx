@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="keys" tilewidth="160" tileheight="160">
+  <tile id="0">
+   <image width="160" height="160" source="img/dirKey.png"/>
+  </tile>
+  <tile id="1">
+   <image width="80" height="80" source="img/jumpKey.png"/>
+  </tile>
+  <tile id="2">
+   <image width="80" height="80" source="img/attackKey.png"/>
+  </tile>
+  <tile id="3">
+   <image width="48" height="48" source="img/menuKey.png"/>
+  </tile>
+ </tileset>
+ <objectgroup draworder="topdown" name="keys" width="80" height="45">
+  <object name="dir" gid="1" x="32" y="672"/>
+  <object name="jump" gid="2" x="1076" y="616"/>
+  <object name="attack" gid="3" x="1172" y="684"/>
+  <object name="menu" gid="4" x="16" y="68"/>
+ </objectgroup>
+</map>

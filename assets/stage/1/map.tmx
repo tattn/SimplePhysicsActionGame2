@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="20" tilewidth="70" tileheight="70">
+ <properties>
+  <property name="BackgroundImage" value="../img/background/bg1.jpg"/>
+ </properties>
+ <tileset firstgid="1" source="../img/player/player.tsx"/>
+ <tileset firstgid="8" name="tiles_spritesheet" tilewidth="70" tileheight="146">
+  <tile id="0">
+   <properties>
+    <property name="Density" value="1"/>
+   </properties>
+   <image width="70" height="70" source="../img/tiles_spritesheet/box.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxAlt.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxCoin.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxCoin_disabled.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxCoinAlt.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxCoinAlt_disabled.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxEmpty.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxExplosive.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxExplosive_disabled.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxExplosiveAlt.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxItem.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxItem_disabled.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxItemAlt.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxItemAlt_disabled.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="70" source="../img/tiles_spritesheet/boxWarning.png"/>
+  </tile>
+  <tile id="15">
+   <image width="70" height="70" source="../img/tiles_spritesheet/brickWall.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="20" source="../img/tiles_spritesheet/bridge.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="25" source="../img/tiles_spritesheet/bridgeLogs.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castle.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCenter.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCenter_rounded.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCliffLeft.png"/>
+  </tile>
+  <tile id="22">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCliffLeftAlt.png"/>
+  </tile>
+  <tile id="23">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCliffRight.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleCliffRightAlt.png"/>
+  </tile>
+  <tile id="25">
+   <image width="70" height="40" source="../img/tiles_spritesheet/castleHalf.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="40" source="../img/tiles_spritesheet/castleHalfLeft.png"/>
+  </tile>
+  <tile id="27">
+   <image width="70" height="40" source="../img/tiles_spritesheet/castleHalfMid.png"/>
+  </tile>
+  <tile id="28">
+   <image width="70" height="40" source="../img/tiles_spritesheet/castleHalfRight.png"/>
+  </tile>
+  <tile id="29">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleHillLeft.png"/>
+  </tile>
+  <tile id="30">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleHillLeft2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleHillRight.png"/>
+  </tile>
+  <tile id="32">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleHillRight2.png"/>
+  </tile>
+  <tile id="33">
+   <image width="5" height="22" source="../img/tiles_spritesheet/castleLedgeLeft.png"/>
+  </tile>
+  <tile id="34">
+   <image width="5" height="22" source="../img/tiles_spritesheet/castleLedgeRight.png"/>
+  </tile>
+  <tile id="35">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleLeft.png"/>
+  </tile>
+  <tile id="36">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleMid.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="70" source="../img/tiles_spritesheet/castleRight.png"/>
+  </tile>
+  <tile id="38">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirt.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCenter.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCenter_rounded.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCliffLeft.png"/>
+  </tile>
+  <tile id="42">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCliffLeftAlt.png"/>
+  </tile>
+  <tile id="43">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCliffRight.png"/>
+  </tile>
+  <tile id="44">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtCliffRightAlt.png"/>
+  </tile>
+  <tile id="45">
+   <image width="70" height="41" source="../img/tiles_spritesheet/dirtHalf.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="41" source="../img/tiles_spritesheet/dirtHalfLeft.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="41" source="../img/tiles_spritesheet/dirtHalfMid.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="41" source="../img/tiles_spritesheet/dirtHalfRight.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtHillLeft.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtHillLeft2.png"/>
+  </tile>
+  <tile id="51">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtHillRight.png"/>
+  </tile>
+  <tile id="52">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtHillRight2.png"/>
+  </tile>
+  <tile id="53">
+   <image width="5" height="18" source="../img/tiles_spritesheet/dirtLedgeLeft.png"/>
+  </tile>
+  <tile id="54">
+   <image width="5" height="18" source="../img/tiles_spritesheet/dirtLedgeRight.png"/>
+  </tile>
+  <tile id="55">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtLeft.png"/>
+  </tile>
+  <tile id="56">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtMid.png"/>
+  </tile>
+  <tile id="57">
+   <image width="70" height="70" source="../img/tiles_spritesheet/dirtRight.png"/>
+  </tile>
+  <tile id="58">
+   <image width="70" height="70" source="../img/tiles_spritesheet/door_closedMid.png"/>
+  </tile>
+  <tile id="59">
+   <image width="70" height="70" source="../img/tiles_spritesheet/door_closedTop.png"/>
+  </tile>
+  <tile id="60">
+   <image width="70" height="70" source="../img/tiles_spritesheet/door_openMid.png"/>
+  </tile>
+  <tile id="61">
+   <image width="70" height="70" source="../img/tiles_spritesheet/door_openTop.png"/>
+  </tile>
+  <tile id="62">
+   <image width="70" height="70" source="../img/tiles_spritesheet/fence.png"/>
+  </tile>
+  <tile id="63">
+   <image width="70" height="70" source="../img/tiles_spritesheet/fenceBroken.png"/>
+  </tile>
+  <tile id="64">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grass.png"/>
+  </tile>
+  <tile id="65">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCenter.png"/>
+  </tile>
+  <tile id="66">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCenter_rounded.png"/>
+  </tile>
+  <tile id="67">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCliffLeft.png"/>
+  </tile>
+  <tile id="68">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCliffLeftAlt.png"/>
+  </tile>
+  <tile id="69">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCliffRight.png"/>
+  </tile>
+  <tile id="70">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassCliffRightAlt.png"/>
+  </tile>
+  <tile id="71">
+   <image width="70" height="40" source="../img/tiles_spritesheet/grassHalf.png"/>
+  </tile>
+  <tile id="72">
+   <image width="70" height="40" source="../img/tiles_spritesheet/grassHalfLeft.png"/>
+  </tile>
+  <tile id="73">
+   <image width="70" height="40" source="../img/tiles_spritesheet/grassHalfMid.png"/>
+  </tile>
+  <tile id="74">
+   <image width="70" height="40" source="../img/tiles_spritesheet/grassHalfRight.png"/>
+  </tile>
+  <tile id="75">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassHillLeft.png"/>
+  </tile>
+  <tile id="76">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassHillLeft2.png"/>
+  </tile>
+  <tile id="77">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassHillRight.png"/>
+  </tile>
+  <tile id="78">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassHillRight2.png"/>
+  </tile>
+  <tile id="79">
+   <image width="5" height="24" source="../img/tiles_spritesheet/grassLedgeLeft.png"/>
+  </tile>
+  <tile id="80">
+   <image width="5" height="24" source="../img/tiles_spritesheet/grassLedgeRight.png"/>
+  </tile>
+  <tile id="81">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassLeft.png"/>
+  </tile>
+  <tile id="82">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassMid.png"/>
+  </tile>
+  <tile id="83">
+   <image width="70" height="70" source="../img/tiles_spritesheet/grassRight.png"/>
+  </tile>
+  <tile id="84">
+   <image width="48" height="146" source="../img/tiles_spritesheet/hill_large.png"/>
+  </tile>
+  <tile id="85">
+   <image width="48" height="146" source="../img/tiles_spritesheet/hill_largeAlt.png"/>
+  </tile>
+  <tile id="86">
+   <image width="48" height="106" source="../img/tiles_spritesheet/hill_small.png"/>
+  </tile>
+  <tile id="87">
+   <image width="48" height="106" source="../img/tiles_spritesheet/hill_smallAlt.png"/>
+  </tile>
+  <tile id="88">
+   <image width="70" height="70" source="../img/tiles_spritesheet/ladder_mid.png"/>
+  </tile>
+  <tile id="89">
+   <image width="70" height="70" source="../img/tiles_spritesheet/ladder_top.png"/>
+  </tile>
+  <tile id="90">
+   <image width="70" height="70" source="../img/tiles_spritesheet/liquidLava.png"/>
+  </tile>
+  <tile id="91">
+   <image width="70" height="70" source="../img/tiles_spritesheet/liquidLavaTop.png"/>
+  </tile>
+  <tile id="92">
+   <image width="70" height="70" source="../img/tiles_spritesheet/liquidLavaTop_mid.png"/>
+  </tile>
+  <tile id="93">
+   <image width="70" height="70" source="../img/tiles_spritesheet/liquidWater.png"/>
+  </tile>
+  <tile id="94">
+   <image width="70" height="45" source="../img/tiles_spritesheet/liquidWaterTop.png"/>
+  </tile>
+  <tile id="95">
+   <image width="70" height="45" source="../img/tiles_spritesheet/liquidWaterTop_mid.png"/>
+  </tile>
+  <tile id="96">
+   <image width="70" height="70" source="../img/tiles_spritesheet/lock_blue.png"/>
+  </tile>
+  <tile id="97">
+   <image width="70" height="70" source="../img/tiles_spritesheet/lock_green.png"/>
+  </tile>
+  <tile id="98">
+   <image width="70" height="70" source="../img/tiles_spritesheet/lock_red.png"/>
+  </tile>
+  <tile id="99">
+   <image width="70" height="70" source="../img/tiles_spritesheet/lock_yellow.png"/>
+  </tile>
+  <tile id="100">
+   <image width="70" height="70" source="../img/tiles_spritesheet/rockHillLeft.png"/>
+  </tile>
+  <tile id="101">
+   <image width="70" height="70" source="../img/tiles_spritesheet/rockHillRight.png"/>
+  </tile>
+  <tile id="102">
+   <image width="16" height="70" source="../img/tiles_spritesheet/ropeAttached.png"/>
+  </tile>
+  <tile id="103">
+   <image width="70" height="5" source="../img/tiles_spritesheet/ropeHorizontal.png"/>
+  </tile>
+  <tile id="104">
+   <image width="5" height="70" source="../img/tiles_spritesheet/ropeVertical.png"/>
+  </tile>
+  <tile id="105">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sand.png"/>
+  </tile>
+  <tile id="106">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCenter.png"/>
+  </tile>
+  <tile id="107">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCenter_rounded.png"/>
+  </tile>
+  <tile id="108">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCliffLeft.png"/>
+  </tile>
+  <tile id="109">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCliffLeftAlt.png"/>
+  </tile>
+  <tile id="110">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCliffRight.png"/>
+  </tile>
+  <tile id="111">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandCliffRightAlt.png"/>
+  </tile>
+  <tile id="112">
+   <image width="70" height="41" source="../img/tiles_spritesheet/sandHalf.png"/>
+  </tile>
+  <tile id="113">
+   <image width="70" height="41" source="../img/tiles_spritesheet/sandHalfLeft.png"/>
+  </tile>
+  <tile id="114">
+   <image width="70" height="41" source="../img/tiles_spritesheet/sandHalfMid.png"/>
+  </tile>
+  <tile id="115">
+   <image width="70" height="41" source="../img/tiles_spritesheet/sandHalfRight.png"/>
+  </tile>
+  <tile id="116">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandHillLeft.png"/>
+  </tile>
+  <tile id="117">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandHillLeft2.png"/>
+  </tile>
+  <tile id="118">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandHillRight.png"/>
+  </tile>
+  <tile id="119">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandHillRight2.png"/>
+  </tile>
+  <tile id="120">
+   <image width="5" height="18" source="../img/tiles_spritesheet/sandLedgeLeft.png"/>
+  </tile>
+  <tile id="121">
+   <image width="5" height="18" source="../img/tiles_spritesheet/sandLedgeRight.png"/>
+  </tile>
+  <tile id="122">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandLeft.png"/>
+  </tile>
+  <tile id="123">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandMid.png"/>
+  </tile>
+  <tile id="124">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sandRight.png"/>
+  </tile>
+  <tile id="125">
+   <image width="70" height="70" source="../img/tiles_spritesheet/sign.png"/>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="type" value="ゴール"/>
+   </properties>
+   <image width="70" height="70" source="../img/tiles_spritesheet/signExit.png"/>
+  </tile>
+  <tile id="127">
+   <image width="70" height="70" source="../img/tiles_spritesheet/signLeft.png"/>
+  </tile>
+  <tile id="128">
+   <image width="70" height="70" source="../img/tiles_spritesheet/signRight.png"/>
+  </tile>
+  <tile id="129">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snow.png"/>
+  </tile>
+  <tile id="130">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCenter.png"/>
+  </tile>
+  <tile id="131">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCenter_rounded.png"/>
+  </tile>
+  <tile id="132">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCliffLeft.png"/>
+  </tile>
+  <tile id="133">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCliffLeftAlt.png"/>
+  </tile>
+  <tile id="134">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCliffRight.png"/>
+  </tile>
+  <tile id="135">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowCliffRightAlt.png"/>
+  </tile>
+  <tile id="136">
+   <image width="70" height="41" source="../img/tiles_spritesheet/snowHalf.png"/>
+  </tile>
+  <tile id="137">
+   <image width="70" height="41" source="../img/tiles_spritesheet/snowHalfLeft.png"/>
+  </tile>
+  <tile id="138">
+   <image width="70" height="41" source="../img/tiles_spritesheet/snowHalfMid.png"/>
+  </tile>
+  <tile id="139">
+   <image width="70" height="41" source="../img/tiles_spritesheet/snowHalfRight.png"/>
+  </tile>
+  <tile id="140">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowHillLeft.png"/>
+  </tile>
+  <tile id="141">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowHillLeft2.png"/>
+  </tile>
+  <tile id="142">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowHillRight.png"/>
+  </tile>
+  <tile id="143">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowHillRight2.png"/>
+  </tile>
+  <tile id="144">
+   <image width="5" height="18" source="../img/tiles_spritesheet/snowLedgeLeft.png"/>
+  </tile>
+  <tile id="145">
+   <image width="5" height="18" source="../img/tiles_spritesheet/snowLedgeRight.png"/>
+  </tile>
+  <tile id="146">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowLeft.png"/>
+  </tile>
+  <tile id="147">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowMid.png"/>
+  </tile>
+  <tile id="148">
+   <image width="70" height="70" source="../img/tiles_spritesheet/snowRight.png"/>
+  </tile>
+  <tile id="149">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stone.png"/>
+  </tile>
+  <tile id="150">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCenter.png"/>
+  </tile>
+  <tile id="151">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCenter_rounded.png"/>
+  </tile>
+  <tile id="152">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCliffLeft.png"/>
+  </tile>
+  <tile id="153">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCliffLeftAlt.png"/>
+  </tile>
+  <tile id="154">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCliffRight.png"/>
+  </tile>
+  <tile id="155">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneCliffRightAlt.png"/>
+  </tile>
+  <tile id="156">
+   <image width="70" height="40" source="../img/tiles_spritesheet/stoneHalf.png"/>
+  </tile>
+  <tile id="157">
+   <image width="70" height="40" source="../img/tiles_spritesheet/stoneHalfLeft.png"/>
+  </tile>
+  <tile id="158">
+   <image width="70" height="40" source="../img/tiles_spritesheet/stoneHalfMid.png"/>
+  </tile>
+  <tile id="159">
+   <image width="70" height="40" source="../img/tiles_spritesheet/stoneHalfRight.png"/>
+  </tile>
+  <tile id="160">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneHillLeft2.png"/>
+  </tile>
+  <tile id="161">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneHillRight2.png"/>
+  </tile>
+  <tile id="162">
+   <image width="5" height="24" source="../img/tiles_spritesheet/stoneLedgeLeft.png"/>
+  </tile>
+  <tile id="163">
+   <image width="5" height="24" source="../img/tiles_spritesheet/stoneLedgeRight.png"/>
+  </tile>
+  <tile id="164">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneLeft.png"/>
+  </tile>
+  <tile id="165">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneMid.png"/>
+  </tile>
+  <tile id="166">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneRight.png"/>
+  </tile>
+  <tile id="167">
+   <image width="70" height="70" source="../img/tiles_spritesheet/stoneWall.png"/>
+  </tile>
+  <tile id="168">
+   <image width="28" height="67" source="../img/tiles_spritesheet/tochLit.png"/>
+  </tile>
+  <tile id="169">
+   <image width="28" height="67" source="../img/tiles_spritesheet/tochLit2.png"/>
+  </tile>
+  <tile id="170">
+   <image width="28" height="50" source="../img/tiles_spritesheet/torch.png"/>
+  </tile>
+  <tile id="171">
+   <image width="70" height="70" source="../img/tiles_spritesheet/window.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="180" source="../img/items_spritesheet/items_spritesheet.tsx"/>
+ <tileset firstgid="239" name="enemy" tilewidth="88" tileheight="147">
+  <tile id="0">
+   <image width="51" height="57" source="../img/enemy/barnacle.png"/>
+  </tile>
+  <tile id="1">
+   <image width="51" height="58" source="../img/enemy/barnacle_bite.png"/>
+  </tile>
+  <tile id="2">
+   <image width="51" height="57" source="../img/enemy/barnacle_dead.png"/>
+  </tile>
+  <tile id="3">
+   <image width="51" height="57" source="../img/enemy/barnacle_hit.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="47" source="../img/enemy/bat.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="47" source="../img/enemy/bat_dead.png"/>
+  </tile>
+  <tile id="6">
+   <image width="88" height="37" source="../img/enemy/bat_fly.png"/>
+  </tile>
+  <tile id="7">
+   <image width="38" height="48" source="../img/enemy/bat_hang.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="47" source="../img/enemy/bat_hit.png"/>
+  </tile>
+  <tile id="9">
+   <image width="56" height="48" source="../img/enemy/bee.png"/>
+  </tile>
+  <tile id="10">
+   <image width="56" height="48" source="../img/enemy/bee_dead.png"/>
+  </tile>
+  <tile id="11">
+   <image width="61" height="42" source="../img/enemy/bee_fly.png"/>
+  </tile>
+  <tile id="12">
+   <image width="56" height="48" source="../img/enemy/bee_hit.png"/>
+  </tile>
+  <tile id="13">
+   <image width="60" height="45" source="../img/enemy/fishGreen.png"/>
+  </tile>
+  <tile id="14">
+   <image width="60" height="45" source="../img/enemy/fishGreen_dead.png"/>
+  </tile>
+  <tile id="15">
+   <image width="57" height="44" source="../img/enemy/fishGreen_hit.png"/>
+  </tile>
+  <tile id="16">
+   <image width="57" height="44" source="../img/enemy/fishGreen_swim.png"/>
+  </tile>
+  <tile id="17">
+   <image width="60" height="45" source="../img/enemy/fishPink.png"/>
+  </tile>
+  <tile id="18">
+   <image width="60" height="45" source="../img/enemy/fishPink_dead.png"/>
+  </tile>
+  <tile id="19">
+   <image width="57" height="44" source="../img/enemy/fishPink_hit.png"/>
+  </tile>
+  <tile id="20">
+   <image width="57" height="44" source="../img/enemy/fishPink_swim.png"/>
+  </tile>
+  <tile id="21">
+   <image width="57" height="45" source="../img/enemy/fly.png"/>
+  </tile>
+  <tile id="22">
+   <image width="57" height="45" source="../img/enemy/fly_dead.png"/>
+  </tile>
+  <tile id="23">
+   <image width="65" height="39" source="../img/enemy/fly_fly.png"/>
+  </tile>
+  <tile id="24">
+   <image width="57" height="45" source="../img/enemy/fly_hit.png"/>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="type" value="カエル"/>
+   </properties>
+   <image width="58" height="39" source="../img/enemy/frog.png"/>
+  </tile>
+  <tile id="26">
+   <image width="61" height="54" source="../img/enemy/frog_dead.png"/>
+  </tile>
+  <tile id="27">
+   <image width="61" height="54" source="../img/enemy/frog_hit.png"/>
+  </tile>
+  <tile id="28">
+   <image width="61" height="54" source="../img/enemy/frog_leap.png"/>
+  </tile>
+  <tile id="29">
+   <image width="51" height="73" source="../img/enemy/ghost.png"/>
+  </tile>
+  <tile id="30">
+   <image width="51" height="73" source="../img/enemy/ghost_dead.png"/>
+  </tile>
+  <tile id="31">
+   <image width="51" height="73" source="../img/enemy/ghost_hit.png"/>
+  </tile>
+  <tile id="32">
+   <image width="51" height="73" source="../img/enemy/ghost_normal.png"/>
+  </tile>
+  <tile id="33">
+   <image width="71" height="70" source="../img/enemy/grassBlock.png"/>
+  </tile>
+  <tile id="34">
+   <image width="71" height="70" source="../img/enemy/grassBlock_dead.png"/>
+  </tile>
+  <tile id="35">
+   <image width="71" height="70" source="../img/enemy/grassBlock_hit.png"/>
+  </tile>
+  <tile id="36">
+   <image width="71" height="70" source="../img/enemy/grassBlock_jump.png"/>
+  </tile>
+  <tile id="37">
+   <image width="58" height="34" source="../img/enemy/ladyBug.png"/>
+  </tile>
+  <tile id="38">
+   <image width="59" height="42" source="../img/enemy/ladyBug_fly.png"/>
+  </tile>
+  <tile id="39">
+   <image width="58" height="34" source="../img/enemy/ladyBug_hit.png"/>
+  </tile>
+  <tile id="40">
+   <image width="61" height="34" source="../img/enemy/ladyBug_walk.png"/>
+  </tile>
+  <tile id="41">
+   <image width="59" height="35" source="../img/enemy/mouse.png"/>
+  </tile>
+  <tile id="42">
+   <image width="59" height="35" source="../img/enemy/mouse_dead.png"/>
+  </tile>
+  <tile id="43">
+   <image width="59" height="35" source="../img/enemy/mouse_hit.png"/>
+  </tile>
+  <tile id="44">
+   <image width="58" height="35" source="../img/enemy/mouse_walk.png"/>
+  </tile>
+  <tile id="45">
+   <image width="45" height="60" source="../img/enemy/piranha.png"/>
+  </tile>
+  <tile id="46">
+   <image width="45" height="60" source="../img/enemy/piranha_dead.png"/>
+  </tile>
+  <tile id="47">
+   <image width="45" height="60" source="../img/enemy/piranha_down.png"/>
+  </tile>
+  <tile id="48">
+   <image width="45" height="60" source="../img/enemy/piranha_hit.png"/>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="type" value="スライム"/>
+   </properties>
+   <image width="49" height="34" source="../img/enemy/slime.png"/>
+  </tile>
+  <tile id="50">
+   <image width="49" height="34" source="../img/enemy/slime_dead.png"/>
+  </tile>
+  <tile id="51">
+   <image width="49" height="34" source="../img/enemy/slime_hit.png"/>
+  </tile>
+  <tile id="52">
+   <image width="57" height="13" source="../img/enemy/slime_squashed.png"/>
+  </tile>
+  <tile id="53">
+   <image width="57" height="30" source="../img/enemy/slime_walk.png"/>
+  </tile>
+  <tile id="54">
+   <image width="51" height="50" source="../img/enemy/slimeBlock.png"/>
+  </tile>
+  <tile id="55">
+   <image width="51" height="50" source="../img/enemy/slimeBlock_dead.png"/>
+  </tile>
+  <tile id="56">
+   <image width="51" height="50" source="../img/enemy/slimeBlock_hit.png"/>
+  </tile>
+  <tile id="57">
+   <image width="49" height="34" source="../img/enemy/slimeBlue.png"/>
+  </tile>
+  <tile id="58">
+   <image width="57" height="30" source="../img/enemy/slimeBlue_blue.png"/>
+  </tile>
+  <tile id="59">
+   <image width="49" height="34" source="../img/enemy/slimeBlue_dead.png"/>
+  </tile>
+  <tile id="60">
+   <image width="49" height="34" source="../img/enemy/slimeBlue_hit.png"/>
+  </tile>
+  <tile id="61">
+   <image width="57" height="13" source="../img/enemy/slimeBlue_squashed.png"/>
+  </tile>
+  <tile id="62">
+   <image width="49" height="34" source="../img/enemy/slimeGreen.png"/>
+  </tile>
+  <tile id="63">
+   <image width="49" height="34" source="../img/enemy/slimeGreen_dead.png"/>
+  </tile>
+  <tile id="64">
+   <image width="49" height="34" source="../img/enemy/slimeGreen_hit.png"/>
+  </tile>
+  <tile id="65">
+   <image width="57" height="13" source="../img/enemy/slimeGreen_squashed.png"/>
+  </tile>
+  <tile id="66">
+   <image width="57" height="30" source="../img/enemy/slimeGreen_walk.png"/>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="type" value="カタツムリ"/>
+   </properties>
+   <image width="55" height="40" source="../img/enemy/snail.png"/>
+  </tile>
+  <tile id="68">
+   <image width="55" height="40" source="../img/enemy/snail_hit.png"/>
+  </tile>
+  <tile id="69">
+   <image width="43" height="35" source="../img/enemy/snail_shell.png"/>
+  </tile>
+  <tile id="70">
+   <image width="60" height="40" source="../img/enemy/snail_walk.png"/>
+  </tile>
+  <tile id="71">
+   <image width="63" height="23" source="../img/enemy/snake.png"/>
+  </tile>
+  <tile id="72">
+   <image width="63" height="23" source="../img/enemy/snake_dead.png"/>
+  </tile>
+  <tile id="73">
+   <image width="63" height="23" source="../img/enemy/snake_hit.png"/>
+  </tile>
+  <tile id="74">
+   <image width="63" height="23" source="../img/enemy/snake_walk.png"/>
+  </tile>
+  <tile id="75">
+   <image width="53" height="147" source="../img/enemy/snakeLava.png"/>
+  </tile>
+  <tile id="76">
+   <image width="52" height="147" source="../img/enemy/snakeLava_ani.png"/>
+  </tile>
+  <tile id="77">
+   <image width="53" height="147" source="../img/enemy/snakeLava_dead.png"/>
+  </tile>
+  <tile id="78">
+   <image width="53" height="147" source="../img/enemy/snakeLava_hit.png"/>
+  </tile>
+  <tile id="79">
+   <image width="53" height="147" source="../img/enemy/snakeSlime.png"/>
+  </tile>
+  <tile id="80">
+   <image width="52" height="147" source="../img/enemy/snakeSlime_ani.png"/>
+  </tile>
+  <tile id="81">
+   <image width="53" height="147" source="../img/enemy/snakeSlime_dead.png"/>
+  </tile>
+  <tile id="82">
+   <image width="53" height="147" source="../img/enemy/snakeSlime_hit.png"/>
+  </tile>
+  <tile id="83">
+   <image width="71" height="45" source="../img/enemy/spider.png"/>
+  </tile>
+  <tile id="84">
+   <image width="69" height="51" source="../img/enemy/spider_dead.png"/>
+  </tile>
+  <tile id="85">
+   <image width="71" height="45" source="../img/enemy/spider_hit.png"/>
+  </tile>
+  <tile id="86">
+   <image width="72" height="51" source="../img/enemy/spider_walk1.png"/>
+  </tile>
+  <tile id="87">
+   <image width="77" height="53" source="../img/enemy/spider_walk2.png"/>
+  </tile>
+  <tile id="88">
+   <image width="63" height="62" source="../img/enemy/spinner.png"/>
+  </tile>
+  <tile id="89">
+   <image width="63" height="62" source="../img/enemy/spinner_dead.png"/>
+  </tile>
+  <tile id="90">
+   <image width="61" height="61" source="../img/enemy/spinner_hit.png"/>
+  </tile>
+  <tile id="91">
+   <image width="61" height="61" source="../img/enemy/spinner_spin.png"/>
+  </tile>
+  <tile id="92">
+   <image width="63" height="31" source="../img/enemy/spinnerHalf.png"/>
+  </tile>
+  <tile id="93">
+   <image width="63" height="31" source="../img/enemy/spinnerHalf_dead.png"/>
+  </tile>
+  <tile id="94">
+   <image width="61" height="30" source="../img/enemy/spinnerHalf_hit.png"/>
+  </tile>
+  <tile id="95">
+   <image width="61" height="30" source="../img/enemy/spinnerHalf_spin.png"/>
+  </tile>
+  <tile id="96">
+   <image width="63" height="23" source="../img/enemy/worm.png"/>
+  </tile>
+  <tile id="97">
+   <image width="63" height="23" source="../img/enemy/worm_dead.png"/>
+  </tile>
+  <tile id="98">
+   <image width="63" height="23" source="../img/enemy/worm_hit.png"/>
+  </tile>
+  <tile id="99">
+   <image width="63" height="23" source="../img/enemy/worm_walk.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="339" name="other" tilewidth="70" tileheight="70">
+  <tile id="0">
+   <image width="70" height="70" source="../img/other/beam.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../img/other/beamBolts.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../img/other/beamBoltsHoles.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="50" source="../img/other/beamBoltsNarrow.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../img/other/beamDiagonalLeft.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="../img/other/beamDiagonalRight.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="../img/other/beamHoles.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="50" source="../img/other/beamNarrow.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="../img/other/dirtCaveBL.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="39" source="../img/other/dirtCaveBottom.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="../img/other/dirtCaveBR.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="../img/other/dirtCaveRockLarge.png"/>
+  </tile>
+  <tile id="12">
+   <image width="29" height="31" source="../img/other/dirtCaveRockSmall.png"/>
+  </tile>
+  <tile id="13">
+   <image width="47" height="47" source="../img/other/dirtCaveSpikeBottom.png"/>
+  </tile>
+  <tile id="14">
+   <image width="47" height="45" source="../img/other/dirtCaveSpikeTop.png"/>
+  </tile>
+  <tile id="15">
+   <image width="70" height="41" source="../img/other/dirtCaveTop.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="70" source="../img/other/dirtCaveUL.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../img/other/dirtCaveUR.png"/>
+  </tile>
+  <tile id="18">
+   <image width="50" height="48" source="../img/other/laserBlueBurst.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="18" source="../img/other/laserBlueHorizontal.png"/>
+  </tile>
+  <tile id="20">
+   <image width="18" height="70" source="../img/other/laserBlueVertical.png"/>
+  </tile>
+  <tile id="21">
+   <image width="50" height="70" source="../img/other/laserDown.png"/>
+  </tile>
+  <tile id="22">
+   <image width="50" height="65" source="../img/other/laserDownShoot.png"/>
+  </tile>
+  <tile id="23">
+   <image width="50" height="48" source="../img/other/laserGreenBurst.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="18" source="../img/other/laserGreenHorizontal.png"/>
+  </tile>
+  <tile id="25">
+   <image width="18" height="70" source="../img/other/laserGreenVertical.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="59" source="../img/other/laserLeft.png"/>
+  </tile>
+  <tile id="27">
+   <image width="65" height="59" source="../img/other/laserLeftShoot.png"/>
+  </tile>
+  <tile id="28">
+   <image width="34" height="10" source="../img/other/laserPurple.png"/>
+  </tile>
+  <tile id="29">
+   <image width="10" height="10" source="../img/other/laserPurpleDot.png"/>
+  </tile>
+  <tile id="30">
+   <image width="50" height="48" source="../img/other/laserRedBurst.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="18" source="../img/other/laserRedHorizontal.png"/>
+  </tile>
+  <tile id="32">
+   <image width="18" height="70" source="../img/other/laserRedVertical.png"/>
+  </tile>
+  <tile id="33">
+   <image width="70" height="59" source="../img/other/laserRight.png"/>
+  </tile>
+  <tile id="34">
+   <image width="65" height="59" source="../img/other/laserRightShoot.png"/>
+  </tile>
+  <tile id="35">
+   <image width="69" height="70" source="../img/other/laserSwitchBlueOff.png"/>
+  </tile>
+  <tile id="36">
+   <image width="66" height="70" source="../img/other/laserSwitchBlueOn.png"/>
+  </tile>
+  <tile id="37">
+   <image width="65" height="69" source="../img/other/laserSwitchGreenOff.png"/>
+  </tile>
+  <tile id="38">
+   <image width="66" height="69" source="../img/other/laserSwitchGreenOn.png"/>
+  </tile>
+  <tile id="39">
+   <image width="65" height="70" source="../img/other/laserSwitchRedOff.png"/>
+  </tile>
+  <tile id="40">
+   <image width="66" height="70" source="../img/other/laserSwitchRedOn.png"/>
+  </tile>
+  <tile id="41">
+   <image width="65" height="69" source="../img/other/laserSwitchYellowOff.png"/>
+  </tile>
+  <tile id="42">
+   <image width="66" height="69" source="../img/other/laserSwitchYellowOn.png"/>
+  </tile>
+  <tile id="43">
+   <image width="60" height="70" source="../img/other/laserUp.png"/>
+  </tile>
+  <tile id="44">
+   <image width="50" height="65" source="../img/other/laserUpShoot.png"/>
+  </tile>
+  <tile id="45">
+   <image width="50" height="48" source="../img/other/laserYellowBurst.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="18" source="../img/other/laserYellowHorizontal.png"/>
+  </tile>
+  <tile id="47">
+   <image width="18" height="70" source="../img/other/laserYellowVertical.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="70" source="../img/other/metal.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../img/other/metalCenter.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../img/other/metalCenterSticker.png"/>
+  </tile>
+  <tile id="51">
+   <image width="70" height="70" source="../img/other/metalCenterWarning.png"/>
+  </tile>
+  <tile id="52">
+   <image width="70" height="70" source="../img/other/metalCliffLeft.png"/>
+  </tile>
+  <tile id="53">
+   <image width="70" height="70" source="../img/other/metalCliffLeftAlt.png"/>
+  </tile>
+  <tile id="54">
+   <image width="70" height="70" source="../img/other/metalCliffRight.png"/>
+  </tile>
+  <tile id="55">
+   <image width="70" height="70" source="../img/other/metalCliffRightAlt.png"/>
+  </tile>
+  <tile id="56">
+   <image width="70" height="41" source="../img/other/metalFence.png"/>
+  </tile>
+  <tile id="57">
+   <image width="70" height="41" source="../img/other/metalFenceAlt.png"/>
+  </tile>
+  <tile id="58">
+   <image width="70" height="40" source="../img/other/metalHalf.png"/>
+  </tile>
+  <tile id="59">
+   <image width="70" height="40" source="../img/other/metalHalfLeft.png"/>
+  </tile>
+  <tile id="60">
+   <image width="70" height="40" source="../img/other/metalHalfMid.png"/>
+  </tile>
+  <tile id="61">
+   <image width="70" height="40" source="../img/other/metalHalfRight.png"/>
+  </tile>
+  <tile id="62">
+   <image width="70" height="70" source="../img/other/metalLeft.png"/>
+  </tile>
+  <tile id="63">
+   <image width="70" height="70" source="../img/other/metalMid.png"/>
+  </tile>
+  <tile id="64">
+   <image width="70" height="18" source="../img/other/metalPlatform.png"/>
+  </tile>
+  <tile id="65">
+   <image width="70" height="30" source="../img/other/metalPlatformWire.png"/>
+  </tile>
+  <tile id="66">
+   <image width="70" height="57" source="../img/other/metalPlatformWireAlt.png"/>
+  </tile>
+  <tile id="67">
+   <image width="70" height="70" source="../img/other/metalRight.png"/>
+  </tile>
+  <tile id="68">
+   <image width="70" height="70" source="../img/other/metalRounded.png"/>
+  </tile>
+  <tile id="69">
+   <image width="29" height="19" source="../img/other/raygun.png"/>
+  </tile>
+  <tile id="70">
+   <image width="38" height="28" source="../img/other/raygunBig.png"/>
+  </tile>
+  <tile id="71">
+   <image width="29" height="19" source="../img/other/raygunPurple.png"/>
+  </tile>
+  <tile id="72">
+   <image width="38" height="28" source="../img/other/raygunPurpleBig.png"/>
+  </tile>
+  <tile id="73">
+   <image width="36" height="50" source="../img/other/shieldBronze.png"/>
+  </tile>
+  <tile id="74">
+   <image width="36" height="50" source="../img/other/shieldGold.png"/>
+  </tile>
+  <tile id="75">
+   <image width="36" height="50" source="../img/other/shieldSilver.png"/>
+  </tile>
+  <tile id="76">
+   <image width="70" height="70" source="../img/other/stoneCaveBL.png"/>
+  </tile>
+  <tile id="77">
+   <image width="70" height="39" source="../img/other/stoneCaveBottom.png"/>
+  </tile>
+  <tile id="78">
+   <image width="70" height="70" source="../img/other/stoneCaveBR.png"/>
+  </tile>
+  <tile id="79">
+   <image width="70" height="70" source="../img/other/stoneCaveRockLarge.png"/>
+  </tile>
+  <tile id="80">
+   <image width="29" height="31" source="../img/other/stoneCaveRockSmall.png"/>
+  </tile>
+  <tile id="81">
+   <image width="47" height="47" source="../img/other/stoneCaveSpikeBottom.png"/>
+  </tile>
+  <tile id="82">
+   <image width="47" height="45" source="../img/other/stoneCaveSpikeTop.png"/>
+  </tile>
+  <tile id="83">
+   <image width="70" height="41" source="../img/other/stoneCaveTop.png"/>
+  </tile>
+  <tile id="84">
+   <image width="70" height="70" source="../img/other/stoneCaveUL.png"/>
+  </tile>
+  <tile id="85">
+   <image width="70" height="70" source="../img/other/stoneCaveUR.png"/>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="type" value="ソード"/>
+   </properties>
+   <image width="22" height="64" source="../img/other/swordBronze.png"/>
+  </tile>
+  <tile id="87">
+   <image width="22" height="64" source="../img/other/swordGold.png"/>
+  </tile>
+  <tile id="88">
+   <image width="22" height="64" source="../img/other/swordSilver.png"/>
+  </tile>
+  <tile id="89">
+   <image width="70" height="70" source="../img/other/tile_20.png"/>
+  </tile>
+  <tile id="90">
+   <image width="70" height="70" source="../img/other/tile_21.png"/>
+  </tile>
+  <tile id="91">
+   <image width="26" height="65" source="../img/other/umbrellaClosed.png"/>
+  </tile>
+  <tile id="92">
+   <image width="67" height="65" source="../img/other/umbrellaOpen.png"/>
+  </tile>
+  <tile id="93">
+   <image width="70" height="70" source="../img/other/wireBottomLeft.png"/>
+  </tile>
+  <tile id="94">
+   <image width="70" height="70" source="../img/other/wireBottomRight.png"/>
+  </tile>
+  <tile id="95">
+   <image width="24" height="18" source="../img/other/wireHook.png"/>
+  </tile>
+  <tile id="96">
+   <image width="65" height="70" source="../img/other/wireLeft.png"/>
+  </tile>
+  <tile id="97">
+   <image width="65" height="70" source="../img/other/wireRight.png"/>
+  </tile>
+ </tileset>
+ <objectgroup draworder="topdown" name="block" width="100" height="20">
+  <object gid="81" x="0" y="490"/>
+  <object gid="81" x="70" y="490"/>
+  <object gid="81" x="210" y="490"/>
+  <object gid="81" x="140" y="490"/>
+  <object gid="81" x="350" y="490"/>
+  <object gid="81" x="490" y="490"/>
+  <object gid="81" x="420" y="490"/>
+  <object gid="81" x="280" y="490"/>
+  <object gid="73" x="0" y="560"/>
+  <object gid="73" x="70" y="560"/>
+  <object gid="73" x="210" y="560"/>
+  <object gid="73" x="140" y="560"/>
+  <object gid="73" x="420" y="560"/>
+  <object gid="73" x="350" y="560"/>
+  <object gid="73" x="280" y="560"/>
+  <object gid="73" x="490" y="560"/>
+  <object gid="73" x="140" y="630"/>
+  <object gid="73" x="420" y="630"/>
+  <object gid="73" x="350" y="630"/>
+  <object gid="73" x="280" y="630"/>
+  <object gid="73" x="70" y="630"/>
+  <object gid="73" x="0" y="630"/>
+  <object gid="73" x="490" y="630"/>
+  <object gid="73" x="210" y="630"/>
+  <object gid="73" x="140" y="700"/>
+  <object gid="73" x="420" y="700"/>
+  <object gid="73" x="350" y="700"/>
+  <object gid="73" x="280" y="700"/>
+  <object gid="73" x="70" y="700"/>
+  <object gid="73" x="0" y="700"/>
+  <object gid="73" x="490" y="700"/>
+  <object gid="73" x="210" y="700"/>
+  <object gid="73" x="140" y="770"/>
+  <object gid="73" x="420" y="770"/>
+  <object gid="73" x="350" y="770"/>
+  <object gid="73" x="280" y="770"/>
+  <object gid="73" x="70" y="770"/>
+  <object gid="73" x="0" y="770"/>
+  <object gid="73" x="490" y="770"/>
+  <object gid="73" x="210" y="770"/>
+  <object gid="73" x="840" y="700"/>
+  <object gid="73" x="980" y="700"/>
+  <object gid="73" x="560" y="630"/>
+  <object gid="73" x="560" y="770"/>
+  <object gid="81" x="770" y="490"/>
+  <object gid="73" x="910" y="630"/>
+  <object gid="73" x="910" y="770"/>
+  <object gid="81" x="560" y="490"/>
+  <object gid="73" x="1050" y="560"/>
+  <object gid="73" x="770" y="700"/>
+  <object gid="73" x="980" y="560"/>
+  <object gid="73" x="630" y="700"/>
+  <object gid="73" x="560" y="560"/>
+  <object gid="73" x="630" y="560"/>
+  <object gid="73" x="980" y="770"/>
+  <object gid="81" x="910" y="490"/>
+  <object gid="73" x="1050" y="630"/>
+  <object gid="73" x="1050" y="770"/>
+  <object gid="73" x="840" y="630"/>
+  <object gid="73" x="840" y="770"/>
+  <object gid="73" x="700" y="630"/>
+  <object gid="73" x="910" y="560"/>
+  <object gid="81" x="630" y="490"/>
+  <object gid="73" x="560" y="700"/>
+  <object gid="73" x="770" y="560"/>
+  <object gid="73" x="910" y="700"/>
+  <object gid="81" x="980" y="490"/>
+  <object gid="73" x="770" y="630"/>
+  <object gid="73" x="770" y="770"/>
+  <object gid="81" x="1050" y="490"/>
+  <object gid="73" x="700" y="700"/>
+  <object gid="73" x="630" y="630"/>
+  <object gid="73" x="630" y="770"/>
+  <object gid="73" x="980" y="630"/>
+  <object gid="73" x="700" y="770"/>
+  <object gid="81" x="840" y="490"/>
+  <object gid="81" x="700" y="490"/>
+  <object gid="73" x="840" y="560"/>
+  <object gid="73" x="1050" y="700"/>
+  <object gid="73" x="700" y="560"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" draworder="topdown" name="Group" width="100" height="20">
+  <object x="0" y="438" width="1120" height="333"/>
+ </objectgroup>
+ <objectgroup draworder="topdown" name="Player" width="100" height="20">
+  <object gid="1" x="53" y="263"/>
+ </objectgroup>
+ <objectgroup draworder="topdown" name="Enemy" width="100" height="20">
+  <object gid="134" x="490" y="298"/>
+  <object gid="288" x="823" y="403"/>
+  <object gid="264" x="613" y="228"/>
+  <object gid="306" x="455" y="350"/>
+ </objectgroup>
+ <objectgroup draworder="topdown" name="Item" width="100" height="20">
+  <object gid="425" x="193" y="368"/>
+ </objectgroup>
+</map>

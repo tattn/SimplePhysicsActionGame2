@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="プレイヤー" color="#ff0000"/>
+ <objecttype name="スライム" color="#aaff00"/>
+ <objecttype name="カエル" color="#aaff00"/>
+ <objecttype name="カタツムリ" color="#aaff00"/>
+ <objecttype name="上下に移動する床" color="#ffff00"/>
+ <objecttype name="左右に移動する床" color="#ffff00"/>
+ <objecttype name="落下する床" color="#ffff00"/>
+ <objecttype name="ゴール" color="#ffff00"/>
+ <objecttype name="ダメージ床" color="#ffff00"/>
+ <objecttype name="スイッチ" color="#ffff00"/>
+ <objecttype name="ソード" color="#ffff00"/>
+ <objecttype name="コイン" color="#ffff00"/>
+</objecttypes>
